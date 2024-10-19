@@ -1,0 +1,100 @@
+body {
+    background-image: url(camp\ nou.jpeg); 
+    margin: 0; 
+    padding: 0;
+}
+
+#videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh; 
+    padding: 1% 2%;
+    background-color: rgba(56, 226, 14, 0.767);
+    text-align: center;
+}
+
+#videos h1 {
+    font-size: 3vw; 
+    color: #ffffff;
+    margin: 0; 
+}
+
+
+#pielogo {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0; 
+    background-color: rgba(56, 226, 14, 0.767);
+}
+
+#pielogo > div {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    width: 70%;
+    height: 35%;
+    background-color: #9FC8D9;
+    border-radius: 10px;
+}
+
+.seccionpie {
+    flex: 1;
+    padding: 3%;
+    text-align: center; 
+}
+
+.seccionpie h1 {
+    font-size: 2vw; 
+    margin-bottom: 10px;
+}
+
+.seccionpie p {
+    margin: 5px 0; 
+}
+
+.seccionpie a {
+    font-size: 1.5vw;
+    color: #666666;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    #videos {
+        height: 20vh; 
+    }
+
+    #pielogo {
+        padding: 4% 0; 
+    }
+
+    #pielogo > div {
+        flex-direction: column;
+    }
+
+    .seccionpie {
+        padding: 2%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1920px) {
+    
+    #videos {
+        height: 10vh; 
+    }
+
+    #pielogo {
+        padding: 2% 0; 
+    }
+
+    #pielogo > div {
+        flex-direction: row; 
+    }
+
+    .seccionpie {
+        padding: 3%;
+    }
+}

@@ -1,0 +1,228 @@
+header{
+    display: flex;
+    width: 1890px;
+    height: 120px;
+    font-size: 100px;
+    background-color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    margin-right: 90px;
+    width: 90px;
+    height: 70px;
+    border: 2px solid black;
+    float: left;
+    margin-right: 1700px;
+    position: absolute;
+}
+
+
+figure > img{
+    width: 150px;
+    height: 120px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+main > img{
+    width: 100%;
+    height: 40%;
+    right: 40px;
+    margin-right: 900px;
+    float: left;
+}
+
+#hitdemangos {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    height: 50px;
+    padding: 0% 2%;
+    background-color: #ffe600;
+    border-top: 10px solid #ff0101;
+    border-bottom: 10px solid #ff0000;
+   }
+   #hitdemangos > div {
+    flex: 1;
+    max-width: 760px;
+   }
+   #hitdemangos li {
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 50px;
+   }
+
+   #hitdemangos a {
+    font: bold 18px Arial, sans-serif;
+    color: #000000;
+    text-decoration: none;
+   }
+
+   .contenedor {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+.imagen {
+    width: 100%;
+    height: auto;
+}
+.texto-superpuesto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+.color{
+    color: #ff0101;
+}
+
+.caja {
+    border: 1px solid #000;
+    padding: 5px;
+    width: 800px;
+    background-color: #59ca95;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.colores{
+    color: #000000;
+}
+
+.caja2 {
+    border: 1px solid #000;
+    padding: 5px;
+    width: 800px;
+    background-color: #459ea1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+   #piedepagina{
+    display: flex;
+    padding: 50px;
+    width: 1790px;
+    height: 200px;
+    background-color: #ff0000;
+    text-align: center;
+   }
+
+   #piedepagina > div{
+    width: 10%;
+    height: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+}   
+
+.opciones{
+    padding: 25px;
+    flex: 1;
+}
+
+.opciones h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.opciones p{
+    margin-top: 5px;
+}
+
+.opciones a{
+    font: bold 16px Arial, sans-serif;
+    color: #0f4bf1;
+    text-decoration: none;
+}
+
+.opciones2 div{
+    width: 20%;
+    height: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+}
+
+.opciones2{
+    padding: 25px;
+    flex: 1;
+    justify-content: center;
+    float: left;
+}
+
+
+
+.opciones2 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.opciones2 p{
+    margin-top: 10px;
+}
+.opciones2 a{
+    font: bold 16px Arial, sans-serif;
+    color: #0f4bf1;
+    text-decoration: none;
+}
+
+
+.Derechos{
+    justify-content: center;
+    color: #ffffff;
+    width: 20%;
+    height: 55%;
+    position: relative;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ciudad{
+    justify-content: center;
+    color: #ffffff;
+    width: 70%;
+    height: 0%;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.pepe{
+    width: 550px;
+    height: 100%;
+    border: 2px solid black;
+    padding: 5px;
+    float: right;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    background-color: #0f4bf1;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: unset;
+    position: absolute;
+    top: 325px;
+    right: 40px;
+    border: 2px solid black;
+}
+
+.opciones, .opciones2 {
+    padding: 25px;
+}
+
+.opciones2 {
+    clear: both;
+}       

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Código como Texto</title>
+</head>
+<body>
+     
+    <section>
+        <h1>Ejemplo de Código en Texto</h1>
+        <pre>
+&lt;script&gt;
+    const carros = new Array("FORD, RENAULT, BUGGATI");
+    document.getElementById('demo').innerHTML = carros;
+&lt;/script&gt;
+
+&lt;script&gt;
+    function numerosEnteros(){
+        var num1 = 1;
+        var num2 = 2;
+
+        resultado = num1 * num2;
+
+        return resultado;
+    }
+&lt;/script&gt;
+        </pre>
+    </section>
+
+    <!-- Este bloque ejecuta código real -->
+    <h1>Salida del Código</h1>
+    <p id="demo"></p>
+
+    <script>
+        const carros = new Array("FORD, RENAULT, BUGGATI");
+        document.getElementById('demo').innerHTML = carros;
+    </script>
+
+    <script>
+        function numerosEnteros(){
+            var num1 = 1;
+            var num2 = 2;
+
+            resultado = num1 * num2;
+
+            return resultado;
+        }
+    </script>
+   
+</body>
+</html>

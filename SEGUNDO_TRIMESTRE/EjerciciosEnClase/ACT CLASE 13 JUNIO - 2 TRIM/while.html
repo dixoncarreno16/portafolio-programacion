@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While y For</title>
+</head>
+<body>
+    <h1>Ciclo While</h1>
+    <p id="demo"></p>
+
+    <h1>Ciclo For</h1>
+    <p id="bcrr"></p>
+
+    <h1>Ciclo Do-While</h1>
+    <p id="docr"></p>
+
+    <h1>Edad Mayor y Menor</h1>
+    <p id="edades"></p>
+
+    <script>
+        // Ciclo While
+        let texto = " ";
+        let i = 0;
+        while (i < 10) {
+            texto += "<br> Número " + i;
+            i++;
+        }
+        document.getElementById("demo").innerHTML = texto;
+
+        // Ciclo For
+        let b = " ";
+        for (let a = 0; a < 10; a++) {
+            b += "<br> Número " + a;
+        }
+        document.getElementById("bcrr").innerHTML = b;
+
+        // Ciclo Do-While
+        let texto2 = " ";
+        let z = 0;
+        do {
+            texto2 += "<br> Número " + z;
+            z++;
+        } while (z < 10);
+        document.getElementById("docr").innerHTML = texto2;
+
+        // Algoritmo para calcular edades
+        let edades = [];
+        for (let j = 1; j <= 10; j++) {
+            let edad = parseInt(prompt("Digite la edad de la persona " + j + ":"));
+            edades.push(edad);
+        }
+
+        let edadMayor = Math.max(...edades);
+        let edadMenor = Math.min(...edades);
+
+        document.getElementById("edades").innerHTML = 
+            "La mayor edad es: " + edadMayor + "<br>" + 
+            "La menor edad es: " + edadMenor;
+    </script>
+</body>
+</html>

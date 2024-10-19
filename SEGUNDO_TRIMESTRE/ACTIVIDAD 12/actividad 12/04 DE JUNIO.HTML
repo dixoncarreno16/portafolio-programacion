@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucles</title>
+</head>
+<body>
+
+  <h1>Presione F12, y le Aparecera el Resultado</h1>
+
+    <script>
+      
+let numeros = [];
+
+
+for (let i = 0; i < 5; i++) {
+  let numero = prompt("Ingresa un número:");
+  numeros.push(Number(numero));
+}
+
+
+for (let i = 0; i < numeros.length - 1; i++) {
+  for (let j = 0; j < numeros.length - i - 1; j++) {
+    if (numeros[j] > numeros[j + 1]) {
+    
+      let temp = numeros[j];
+      numeros[j] = numeros[j + 1];
+      numeros[j + 1] = temp;
+    }
+  }
+}
+
+
+console.log("Los números ordenados de menor a mayor son: " + numeros.join(", "));
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    background-image: url(balon.jpeg);
+    margin: 0; 
+    padding: 0;
+}
+
+
+#historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh; 
+    background-color: rgba(0, 96, 160, 0.815);
+    text-align: center;
+}
+
+#historia h1 {
+    font-size: 3vw; 
+    color: #fdfdfd;
+    margin: 0; 
+}
+
+
+
+#pielogo {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0; 
+    background-color: rgba(0, 96, 160, 0.815);
+}
+
+#pielogo > div {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    width: 60%;
+    height: 30%;
+    background-color: #9FC8D9;
+    border-radius: 10px;
+}
+
+.seccionpie {
+    flex: 1;
+    padding: 3%;
+    text-align: center; 
+}
+
+.seccionpie h1 {
+    font-size: 2vw;
+    margin-bottom: 10px; 
+}
+
+.seccionpie p {
+    margin: 5px 0;
+}
+
+.seccionpie a {
+    font-size: 1.5vw; 
+    color: #666666;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    
+    .video-container {
+        height: 70vh;
+    }
+
+    #historia {
+        height: 20vh;
+    }
+
+    #pielogo {
+        padding: 4% 0;
+    }
+
+    #pielogo > div {
+        flex-direction: column;
+    }
+
+    .seccionpie {
+        padding: 2%;
+    }
+}

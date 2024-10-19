@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabeceralogo {
+    width: 96%;
+    height: 150px;
+    padding: 0%, 2%;
+    background-color: aqua;
+}
+
+#cabecera > div {
+    max-width: 960px;
+    margin: 0px, auto;
+    padding-top: 45px;
+}
+
+#cabeceralogo h1 {
+    font: bold 54px arial, sans-serif;
+    color: black;
+}
+
+#menuprincipal{
+    width: 96%;
+    height: 50px;
+    padding: 0% 2%;
+    background-color: blue;
+    border-top: 1px solid red;
+}
+
+#menuprincipal > div{
+    max-width: 960px;
+    margin: 0%, auto;
+}
+
+#menuprincipal li{
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+
+#menuprincipal li:hover {
+    background-color: forestgreen;
+}
+
+#menuprincipal a {
+    font: bold 18px arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main{
+    width: 90%;
+    padding: 2%;
+    background-image: url(fondo-monocromatico-blanco-estilo-papel_52683-66443.avif);
+}
+
+main > div {
+    max-width: 960px;
+    margin: auto;
+}
+
+#articulosprincipales {
+    float: left;
+    width: 65%;
+    padding-top: 30px;
+    color: chocolate;
+    border-radius: 10px;
+}
+
+#infoadicional{
+    float: right;
+    width: 29%;
+    padding: 2%;
+    background-color: rgb(0, 111, 238);
+    border-radius: 10px;
+}
+
+#infoadicional h1{
+    font: bold 18px arial, sans-serif;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.recuperar{
+    clear: both;
+}
+
+article{
+    position: relative;
+    padding: 0px 40px 20px 40px;
+}
+
+
+article p {
+    font: 18px Georgia, sans-serif;
+}
+
+figure{
+    margin: 10px 0px;
+}
+
+figure img {
+    max-width: 98%;
+    padding: 1%;
+    border: 1px solid;
+}
+
+#pielogo{
+    width: 96%;
+    padding: 2%;
+    background-color: rgb(56, 228, 185);
+}
+
+#pielogo > div {
+    max-width: 960px;
+    margin: 0%, auto;
+    background-color: rgb(151, 214, 49);
+    border-radius: 10px;
+}
+
+.seccionpie {
+    float: left;
+    width: 27.33%;
+    padding: 3%;
+}
+
+.seccionpie h1 {
+    font: bold 20px arial, sans-serif
+}
+
+.seccionpie p{
+    margin: 5px;
+}
+
+.seccionpie a {
+    font: bold 16px arial, sans-serif;
+    color: burlywood;
+    text-decoration: none;
+}
+
+
+#menuicono{
+    display: none;
+    width: 95%;
+    height: 38px;
+    padding: 12px 2% 0px 3% ;
+    background-color: bisque;
+    border-top: 1px solid #9fc8d9;
+    border-bottom: 1px solid #094660;
+}
+

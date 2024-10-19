@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        total= 4;
+
+        function sumar(){
+            return total * 2;
+        }
+      sumar()
+
+    </script>
+  
+
+    <script>
+        var global = 5;
+
+        function ambito(){
+            var local = "soy local y la global es: ";
+            alert(local + global)
+        }
+        ambito();
+        alert(local);
+        alert(global);
+    </script>
+
+    <script>
+        function ambito(variable, djJuanda){
+
+            alert(variable + djJuanda)
+        }
+        ambito("La nota de dixon es",  10)
+    </script>
+
+
+
+
+</body>
+</html>

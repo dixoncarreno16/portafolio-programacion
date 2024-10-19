@@ -1,0 +1,22 @@
+body{
+    background-image: url(Blue.jpg);
+}
+
+#videos {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    height: 150px;
+    padding: 1% 2%;
+    background-color: brown;
+    text-align: center;
+   }
+   #videos > div {
+    flex: 1;
+    max-width: 960px;
+    padding-top: 10px;
+   }
+   #videos h1 {
+    font: bold 54px Arial, sans-serif;
+    color: #000000;
+   }

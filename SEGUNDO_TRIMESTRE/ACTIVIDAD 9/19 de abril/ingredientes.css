@@ -1,0 +1,54 @@
+.ingredientes{
+    display: flex;
+justify-content: center;
+width: 96%;
+height: 150px;
+padding: 1% 2%;
+background-color: orange;
+text-align: center;
+font-size: 40px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.clase {
+    border: 1px solid #000;
+    padding: 20px;
+    width: 350px;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-top: -0px;
+    height: 500px;
+}
+
+body{
+    background-image: url(depositphotos_74548667-stock-illustration-abstract-grunge-blue-background.jpg);
+}
+
+.hacia {
+    float: left; 
+    margin-right: 20px;
+    width: 500px;
+    height: 550px;
+}
+
+.lado {
+    float: right;
+    margin-left: 20px;
+    width: 500px;
+    height: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
