@@ -1,0 +1,14 @@
+body{
+    margin: 5%;
+}
+p{
+    font-size: 30px;
+}
+.encabezado{
+    color: rgb(35, 136, 89);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.perro{
+    color: rgb(253, 7, 7);
+}

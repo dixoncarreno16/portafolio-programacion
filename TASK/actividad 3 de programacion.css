@@ -1,0 +1,12 @@
+body{
+    margin: 5%;
+}
+.mercurio{
+    color: rgba(128, 128, 128, 0.603);
+}
+.marte{
+    color: rgb(255, 238, 0);
+}
+.venus{
+    color: rgb(104, 34, 77);
+}

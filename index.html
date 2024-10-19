@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Programación - 1er Trimestre</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">1er Trimestre</a></li>
+                <li><a href="SEGUNDO_TRIMESTRE/segundo_trimestre.html">2do Trimestre</a></li>
+                <li><a href="TERCER_TRIMESTRE/tercer_trimestre.html">3er Trimestre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Portafolio de Programación</h1>
+        <div class="trimestre">
+            <h2>1er Trimestre</h2>
+            
+            <h3 class="section-title">Actividades</h3>
+            <ul class="activity-list">
+                <li class="activity-item">
+                    <strong>Actividad 1: Nuevo Curso Gratis de Programación Básica (Platzi.com)</strong>
+                    <h4>Evidencias de Curso</h4>
+                    <div class="image-gallery">
+                        <div class="image-item">
+                            <img src="ACTIVIDAD 1/MOKEPON/imagenes curso platzi/Captura PLATZI 3ER.PNG" alt="Quizz CSS">
+                            <p>Quiz de CSS</p>
+                        </div>
+                        <div class="image-item">
+                            <img src="ACTIVIDAD 1/MOKEPON/imagenes curso platzi/Captura PLATZI 5 DO.PNG" alt="Quizz fundamentos de programacion">
+                            <p>Quiz Fund. de Programacion</p>
+                        </div>
+                        <div class="image-item">
+                            <img src="ACTIVIDAD 1/MOKEPON/imagenes curso platzi/Captura platzi 8.PNG" alt="Quiz Juego HTML y JS">
+                            <p>Quiz Juego HTML y JS</p>
+                        </div>
+                        <div class="image-item">
+                            <img src="ACTIVIDAD 1/MOKEPON/imagenes curso platzi/quiz PLATZI FINAL.PNG" alt="Quiz de optimizacion de codigos">
+                            <p>Quiz de optimizacion de codigos</p>
+                        </div>
+                        <div class="image-item">
+                            <img src="ACTIVIDAD 1/MOKEPON/imagenes curso platzi/diploma platzi.png" alt="Resultado de la calculadora simple">
+                            <p>Diploma Curso de Programacion</p>
+                        </div>
+                        <div class="image-item">
+                            <img src="ACTIVIDAD 1/MOKEPON/imagenes curso platzi/Captura PLATZI EXAMEN FINAL APROBADO.PNG" alt="Diploma Curso Basico de Programacion">
+                            <p>Examen Final</p>
+                        </div>
+                    </div>
+                    <p><a href="ACTIVIDAD 1/MOKEPON/mokepon.html">PROYECTO CURSO</a></p>
+                </li>
+                <li class="activity-item"><a href="ACTIVIDAD 2/actividadvaca1005/dixoncarreño.html">Actividad 2: Formato e Hipervínculos</a></li>
+                <li class="activity-item"><a href="ACTIVIDAD 3/DIXON CARREÑO    1005.html">Actividad 3: Tablas</a></li>
+                <li class="activity-item">
+                    <strong>Actividad 4</strong>
+                    <ul class="sub-activity-list">
+                        <li class="sub-activity-item"><a href="TASK/actividad1 de programacion.html">Actividad 4: Taller 1</a></li>
+                        <li class="sub-activity-item"><a href="TASK/actividad 2 de programcion.html">Actividad 4: Taller 2</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="activity-item"><a href="ACTIVIDAD 5/SITIO WED/pagina.html">Actividad 5: Pagina Web</a></li>
+                <li class="activity-item"><a href="ACTIVIDAD 6/repaso 1005/repaso.html">Actividad 6: Repaso HTML</a></li>
+            </ul>
+            
+            <h3 class="section-title">Ejercicios HTML</h3>
+            <ul class="exercise-list">
+                <li class="exercise-item"><a href="EJERCICIOS HTML/ARCHIVOS/archivo.html">ARCHIVOS</a></li>
+                <li class="exercise-item"><a href="EJERCICIOS HTML/AUDIO/audio.html">AUDIO</a></li>
+                <li class="exercise-item"><a href="EJERCICIOS HTML/ESTRUCTURA/estructura2.html">ESTRUCTURA</a></li>
+                <li class="exercise-item"><a href="EJERCICIOS HTML/FORMULARIOS/formulario2.html">FORMULARIO</a></li>
+                <li class="exercise-item"><a href="EJERCICIOS HTML/FORMULARIOS/sesion.html">SESION</a></li>
+            </ul>
+            
+            <h3 class="section-title">Ejercicios CSS</h3>
+            <ul class="exercise-list">
+                <li class="exercise-item"><a href="EJERCICIOS CSS/styles.html">GRID</a></li>
+                <li class="exercise-item">
+                    <p>Codigo CSS para diferentes dispositivos electronicos.</p>
+                    <ul class="sub-exercise-list">
+                        <li class="sub-exercise-item"><strong>SMARTPHONE 0PX-600PX</strong></li>
+                        <li class="sub-exercise-item"><strong>TABLET 600 PX - 1000PX</strong></li>
+                        <li class="sub-exercise-item"><strong>MONITOR-TY 1000PX - ADELANTE</strong></li>
+                    </ul>
+                    <pre><code>
+                        body {
+                            background-color: blue;
+                        }
+                
+                        @media (max-width: 600px) {
+                            body {
+                                background-color: red;
+                            }
+                        }
+                
+                        @media (min-width: 600px) and (max-width: 1000px) {
+                            body {
+                                background-color: green;
+                            }
+                        }
+                
+                        .estoy-en-pc {
+                            display: none;
+                            @media (min-width: 1000px) {
+                                display: inherit;
+                            }
+                        }
+                
+                        .estoy-en-tablet {
+                            display: none;
+                            @media (min-width: 600px) and (max-width: 1000px) {
+                                display: inherit;
+                            }
+                        }
+                
+                        .estoy-en-movil {
+                            display: none;
+                            @media (max-width: 600px) {
+                                display: inherit;
+                            }
+                        }
+                    </code></pre>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
