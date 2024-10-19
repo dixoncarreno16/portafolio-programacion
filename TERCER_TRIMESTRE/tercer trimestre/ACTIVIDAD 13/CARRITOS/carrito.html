@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de Compras</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="carrito.css">
+    <script src="carrito.js"></script>
+</head>
+<body>
+
+    <header id="cabecera">
+        <div>
+            <h1>Carrito de Compras</h1>
+        </div>
+    </header>
+
+    <div class="demo">
+        <div class="row">
+           
+            <main id="items" class="col-sm-8 row"></main>
+           
+            <aside class="col-sm-4">
+                <h2>Carrito</h2>
+                
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+               
+                <p class="text-right">Total: <span id="total"></span>&euro;</p>
+                <button id="vaciar" class="btn btn-danger">Vaciar</button>
+            </aside>
+        </div>
+
+    </div>
+</body>
+</html>

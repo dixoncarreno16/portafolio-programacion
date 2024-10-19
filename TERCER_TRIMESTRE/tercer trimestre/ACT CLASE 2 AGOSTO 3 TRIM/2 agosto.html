@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 AGOSTO</title>
+</head>
+<body>
+    
+    <p id="demo"></p>
+    <p id="demo2"></p>
+
+    <script>
+        function carro(marca, color, modelo){
+            this.Pmarca = marca;
+            this.Pcolor = color;
+            this.Pmodelo = modelo;  
+        }
+
+        const Renault = new carro ("Renault","Verde", 2024);
+        const Ford = new carro  ("Ford","Rojo", 2024)
+        document.getElementById("demo").innerHTML="Los carros que tengo son" + Renault.Pmarca + "" + Renault.Pcolor + "modelo" + Renault.Pmodelo + "y un" + Ford.Pmarca + "" + Ford.Pcolor + "modelo" + Ford.Pmodelo;
+    </script>
+
+
+
+    <script>
+        //create target object
+    const persona1 = {name: "samuel", edad: 50, color_de_ojo: "cafe"};
+
+
+        //create source object
+    const persona2 = {name:"paola", edad: 36};
+
+
+        //assing source to target
+    Object.assign(persona1,persona2);
+    
+
+        //display target
+    let texto = Object.entries(persona1);
+    document.getElementById("demo2").innerHTML = texto;
+    
+    </script>
+
+
+
+</body>
+</html>

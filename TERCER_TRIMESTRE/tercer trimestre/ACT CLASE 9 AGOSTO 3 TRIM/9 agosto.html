@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 AGOSTO</title>
+</head>
+<body>
+
+<section>
+    <p>ND</p>
+    <p>N/A</p>
+    <h1>HOLA</h1>
+</section>
+
+<script>
+    function agregar(){
+        var lista = document.querySelectorAll("section > p");
+        for(var i= 0; i < lista.length; i++){
+            var elemento = lista[i];
+            elemento.addEventListener("click", color);
+        }
+    }
+
+    function color(evento){
+        var elemento = evento.target;
+        elemento.style.backgroundColor="#999999";
+
+
+    }
+    window.addEventListener("load", agregar);
+</script>
+
+
+<script>
+    function agregar(){
+        var lista = document.querySelectorAll("section > p");
+
+        for(var i= 0; i < lista.length; i++){
+            var elemento = lista[i];
+            elemento.addEventListener("click", function (evento){
+            var valor= 125;
+            color (evento, valor); });
+        }
+    }
+
+    function color(evento, valor){
+        var elemento = evento.target;
+        elemento.innerHTML="valor" + valor;
+
+
+    }
+    window.addEventListener("load", agregar);
+</script>
+</body>
+</html>

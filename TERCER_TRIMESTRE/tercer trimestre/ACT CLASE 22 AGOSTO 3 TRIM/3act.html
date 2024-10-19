@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+// Definir un array con frases sobre informática
+let frases = [
+"El café es el carburante de los programadores.",
+"Los comentarios en el código son como la higiene personal: todos dicen que es importante, pero pocos lo hacen realmente.",
+"La documentación es como el sexo: cuando es bueno, es muy bueno; cuando es malo, es mejor que nada.",
+"La comunicación en informática es como hablar con un programador: ¿Hablas inglés o código?",
+"La nube no es solo una moda, ¡es una forma de vida!",
+"La programación es como tocar un piano desafinado: solo lo entiende quien lo hace."
+
+];
+
+
+function cambiar() {
+
+  let indice = Math.floor(Math.random() * frases.length);
+  let texto = document.getElementById("texto-informatica");
+  texto.textContent = frases[indice];
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  var boton = document.getElementById("ver-mas-boton");
+  boton.addEventListener("click", cambiar);
+});
+    </script>
+
+</head>
+<body>
+    <div id="contenido-informatica">
+        <p id="texto-informatica">Algoritmo - frase utilizada por los programadores cuando no quieren
+        explicar lo que han hecho.</p>
+        <button id="ver-mas-boton">Ver más contenido</button>
+        </div>
+<style>
+#contenido-informatica {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#texto-informatica {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#ver-mas-boton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#ver-mas-boton:hover {
+  background-color: #0056b3;
+}
+
+
+</style>
+      
+
+</body>
+</html>
