@@ -1,0 +1,50 @@
+body{
+    background-color: blue;
+    }
+@media (width<600px){
+    body{
+        background-color: red;
+    }
+}
+@media (600px<=width<1000px){
+    body{
+    background-color: green;
+    }
+}
+
+/*Forma compacta
+
+body{
+    background-color: blue;
+    @media (width<600px){
+        background-color: red;
+    }
+    @media (600px<=width<1000px){
+        background-color: green;
+    }
+}*/
+
+/*@media (orientation:portrait){
+    body{ 
+        background-color: purple;
+    }
+}*/
+.estoy-en-pc{
+    display: none;
+    @media (1000px<width){
+        display: inherit;
+    }
+}
+
+.estoy-en-tablet{
+    display: none;
+    @media (600px<=width<1000px){
+        display: inherit;
+    }
+}
+.estoy-en-movil{
+    display: none;
+    @media (width<600px){
+        display: inherit;
+    }
+}

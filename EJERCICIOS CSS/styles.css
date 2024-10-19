@@ -1,0 +1,123 @@
+.estoy-en-pc{
+    display: none;
+    @media (1000px <width){
+        display: inherit;
+    }
+}
+.estoy-en-tablet{
+    display: none;
+    @media(600px<=width>1000px){
+        display: inherit;
+    }
+}
+
+.estoy-en-movil{
+    display: none;
+    @media(width<600px){
+        display: inherit;
+    }
+}
+#container{
+    font-size: 10px;
+}
+
+.tablero {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    width: 900px;
+    height: 900px;
+}
+.azul {
+    background-color: blue;
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+.amarillo {
+    background-color: yellow;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+.rojo {
+    background-color: red;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+.verde {
+    background-color: green;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+.rosa {
+    background-color: pink;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+
+.jn{
+    background-color: black;
+}
+
+.messi{
+    background-color: #fff4;
+}
+
+.rey{
+    background-color: red;
+}
+
+.elemento{
+    max-width: 1000px;
+    position: fixed;
+    top: 0;
+    left: 20;
+    right: 10;
+    bottom: 20;
+}
+
+.grupo-de-elementos{
+    width: auto;
+    height: fit-content;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+
+body{
+    background-color: blue;
+    @media (width<600px){
+        background-color: yellow;
+    }
+}
+@media (600px<width<1000px){
+    body{
+        background-color: green;
+    }
+}
+
+@media screen and (witdh<600px){
+    body{
+        background-color: black;
+    }
+}
+
+@media print and (wtidth<600px){
+    body{
+        background-color: wheat;
+    }
+}
+
+@media (orientation: landscape){
+    body{
+        background-color: purple;
+    } 
+}
+
+
+
+
+
+ 

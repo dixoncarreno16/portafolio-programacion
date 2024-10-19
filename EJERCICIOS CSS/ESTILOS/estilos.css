@@ -1,0 +1,46 @@
+p[name="mi"]{
+    font-size: 20px;
+    color: brown;
+}
+
+#texto{
+    color: blue;
+}
+.altexto{
+    color: blue;
+}
+h1.altexto{
+    font-size: 20px;
+    color: gray;
+}
+p:nth-child(3){
+    font-size: 20px;
+    color: aqua;
+    background-color: cadetblue;
+}
+#titulo{
+    font: bold 26px misfuentes, verdana, sans-serif;
+    color: rgb(5, 128, 225, 128); 
+}
+#des{
+    width: 200px;
+    
+    overflow: hidden;
+    margin: 10px 40px 10px 30px;
+    padding: 10%;
+}
+
+#css{
+    width: 200px;
+    overflow: auto;
+    margin: auto;
+
+    background-color: black;
+    color: chartreuse;
+    padding: 10%;
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url();
+}
